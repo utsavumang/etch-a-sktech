@@ -1,0 +1,23 @@
+.container {
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+}
+
+
+.cell {
+    /* border: solid 2px red; */
+    flex: 1 1 0;
+    background-color: red;
+}
+
+.cell:hover {
+    background-color: black !important;
+}
