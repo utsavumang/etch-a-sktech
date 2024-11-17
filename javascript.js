@@ -1,12 +1,12 @@
 container =  document.querySelector('.container')
 
 
-for (let i = 0; i < 16; i++){
+for (let i = 0; i < 66; i++){
     const divrow = document.createElement("div");
     container.appendChild(divrow);
     divrow.classList.add("row");
 
-    for (let i = 0; i < 16; i++) {
+    for (let i = 0; i < 66; i++) {
         const divcell = document.createElement("div")
         divrow.appendChild(divcell);
         divcell.classList.add("cell")
@@ -24,5 +24,5 @@ container.addEventListener("click", function(e) {
 
 function darken(box) {
 
-    box.style.backgroundColor = 'red';
+    box.style.backgroundColor = 'black';
 }
