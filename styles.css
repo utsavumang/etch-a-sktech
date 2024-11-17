@@ -1,23 +1,81 @@
+.header {
+    text-align: center;
+    font-size: 48px;
+    margin: 6px;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 24px;
+}
+
+.btn {
+    font-size: 24px;
+    border-radius: 8px;
+    margin: 36px;
+    color: hotpink;
+    border-color: hotpink;
+    background-color: white;
+    padding: 16px;
+}
+
+.btn:hover {
+    background-color: hotpink;
+    color: white;
+
+}
+
+
+
 .container {
+    
     width: 960px;
     height: 960px;
     display: flex;
     flex-direction: column;
+    margin: auto;
+
 }
 
 .row {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
     flex: 1 1 0;
+    
 }
 
 
 .cell {
-    /* border: solid 2px red; */
     flex: 1 1 0;
     background-color: red;
 }
 
 .cell:hover {
     background-color: black !important;
+}
+
+.dark1 {
+    background-color: black !important;
+    opacity: 0.2;
+}
+
+.dark2 {
+    background-color: black !important;
+    opacity: 0.4;
+}
+
+.dark3 {
+    background-color: black !important;
+    opacity: 0.6;
+}
+
+.dark4 {
+    background-color: black !important;
+    opacity: 0.8;
+}
+
+.dark5 {
+    background-color: black !important;
+    opacity: 1;
 }
